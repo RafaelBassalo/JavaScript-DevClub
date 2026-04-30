@@ -1,4 +1,4 @@
-const abacatudo = "Abacatudo é uma fruta deliciosa e versátil, conhecida por sua "
+const abacatudo = "Abacatudo é uma fruta deliciosa e versátil "
 
 const numero = 30
 
