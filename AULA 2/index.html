@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade</title>
+</head>
+<body>
+
+    <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+    <input type="text" name="populacao" id="populacao" placeholder="Digite a população da cidade">
+    <input type="button" value="Enviar" onclick="enviarCidade()">
+
+
+    <script>
+        const enviarCidade = () => {
+            const cidadeInput = document.getElementById('cidade')
+            const cidade = cidadeInput.value
+            const populacaoInput = document.getElementById('populacao')
+            const populacao = populacaoInput.value
+            if (populacao >= 300000) {
+                alert(`A cidade ${cidade} é considerada uma cidade grande.`)
+            } else {
+                alert(`A cidade ${cidade} é considerada uma cidade pequena.`)
+            }
+        }
+    </script>
+</body>
+</html>
